@@ -8,11 +8,11 @@ export default function Home() {
         <div className="hero-grid">
           <div className="hero-content">
             <h1>
-              Natural Healing, <br />
-              <span className="highlight">Guaranteed Results</span>
+              Holistic Healing, <br />
+              <span className="highlight">Removing the Root Cause</span>
             </h1>
             <p>
-              Experience the power of homeopathy with our unique Pay After Cure model. We're so confident in our
+              Experience the power of homeopathy with our unique <b>Smart Remedy Finder</b> model. We're so confident in our
               treatments that you only pay when you see results.
             </p>
             <div className="hero-buttons">
@@ -26,7 +26,7 @@ export default function Home() {
           </div>
           <div className="hero-image">
             <Image
-              src="/placeholder.svg?height=800&width=600"
+              src="/pills.png?height=800&width=600"
               alt="Herbal medicine"
               fill
               style={{ objectFit: "cover" }}

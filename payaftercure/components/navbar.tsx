@@ -10,12 +10,10 @@ export default function Navbar() {
     <header className="header">
       <div className="container">
         <div className="nav-container">
-          <Link href="/" className="logo">
-            <svg className="logo-icon" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" />
-            </svg>
+            <img
+              src="/logo.png?height=20&width=20"
+            />
             PayAfterCure
-          </Link>
 
           <nav className="nav-links">
             <Link href="/">Home</Link>
